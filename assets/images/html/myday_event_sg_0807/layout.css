@@ -1,0 +1,198 @@
+/*****************************************************************************
+Basic
+*****************************************************************************/   
+* { outline: none; }
+li { list-style: none; }
+a{ text-decoration: none; }
+@font-face {font-family: CCC;/*自訂名稱*/ src: url('images/font/CharlemagneStd-Regular.otf');}
+body,  ul,  li,  table,  tr,  td, div { margin: 0; padding: 0; font-family: HHH, Arial, Helvetica, sans-serif; font-size: 12px; }
+#warp { margin: -8px auto; }
+#warp div { width: 100%; margin: 0; }
+
+nav { width: 980px; margin: 0 auto;}
+nav ul { float: right; color: #F00; margin-top: 18px; }
+nav li { float:left; }
+nav li.line1 {transform:skew(-33deg); margin: 8px 0; font-size: 20px; color: #c9ad5a;}
+nav a {position: relative; font-family: CCC, Arial, Helvetica, sans-serif; color: #000; font-size: 20px; display: block; padding: 8px 25px; z-index: 5; -webkit-transition: all 0.7s; -moz-transition: all 0.7s; }
+nav a:before {content:"/";position: absolute; margin-left: -30px; transform:skew(-20deg); font-size: 20px; color: #c9ad5a;}
+nav li.active a:after {content:""; position: absolute; top:0; bottom: 0; right: 0; left: 0; z-index: -1; background:#c9ad5a; transform:skewX(-43deg); -webkit-transition: opacity 0.5s ease-in-out;}
+nav a:hover:after {content:""; position: absolute; top:0; bottom: 0; right: 0; left: 0; z-index: -1; background:#eddfb6; transform:skewX(-43deg); -webkit-transition: opacity 0.5s ease-in-out;}
+.bg1 { height: 873px; background: url("images/event_01.jpg") repeat-x center 0; }
+.bg2 { height: 75px; background: url("images/event_02.jpg") repeat-x center 0; padding: 0 0 0 0;}
+.navTop { position: fixed; top:0; z-index: 999; border-bottom: 1px solid #af0c2b;}
+
+/*-footer-*/ 
+footer {width: 100%; height: 83px; margin: 0 auto; padding: 0; overflow: hidden; background: url("images/footer.jpg") repeat-x center 0; }
+footer ul { width: 1001px; margin: 0 auto; padding: 0; }
+footer li { float: left; margin: 0; padding: 0; display: table; }
+footer a { margin: 0; padding: 0; }
+
+/*******btn effect ALL*******/
+li b {width: 100%; margin: 0; padding: 0; display: block; -moz-transition: opacity 0.5s; /* Firefox */ -webkit-transition: opacity 0.5s; /* Safari and Chrome */ -o-transition: opacity 0.5s; /* Opera */ transition: opacity 0.5s; }
+li b.btn_A { opacity: 1; z-index: 1; }
+li b.btn_A:hover { opacity: 0; z-index: 1; display: none; }
+li b.btn_B { opacity: 0; z-index: 2; }
+li b.btn_B:hover { opacity: 1; }
+
+/*****************************************************************************
+Detail
+*****************************************************************************/
+#warp div.head_btn { width: 999px; height: 60px; margin: 27px auto 0 auto; padding: 0; overflow: hidden; }
+.head_btn ul {  margin: 0; padding: 0; float: right;}
+.head_btn li { float: left; margin: 0; padding: 0; display: table;}
+.head_btn a { margin: 0; padding: 0; }
+.head_btn .logo {margin-right: 30px;}
+.head_btn .logo a img { margin: 0 0 0 0; }
+.head_btn .logo a img:hover { -webkit-filter: brightness(110%); }
+
+.bg1 { width: 100%; text-align: center; overflow: hidden; }
+
+.photo_full { margin: 0 auto; }
+.photo_full img { text-align: center; }
+.md_btn { width: 1001px; margin: 0 auto; padding: 0; }
+.md_btn li { float: left; margin: 0; padding: 0; display: table; }
+.md_btn li.btn1 { background: url("images/md_btns_01.png") no-repeat center 0; margin: 30px 0 0 50px; }
+.md_btn li.btn2 { background: url("images/md_btns_02.png") no-repeat center 0; margin: 30px 0 0 20px; }
+
+.topmenu { padding: 20px 0 0 9px; }
+.top_btn ul { position: fixed; top: 100px; z-index: 999; right: 0px; }
+.top_btn li { display: block; margin: 0; }
+.top_btn li img { display: block; }
+.top_btn li.btn1 { background: url("images/topright_btns_01.png") no-repeat center 0;}
+.top_btn li.btn2 { background: url("images/topright_btns_02.png") no-repeat center 0;}
+.top_btn li.btn3 { background: url("images/topright_btns_03.png") no-repeat center 0;}
+.top_btn li.btn4 { background: url("images/topright_btns_04.png") no-repeat center 0;}
+.top_btn li.btn5 { background: url("images/topright_btns_05.png") no-repeat center 0;}
+.top_btn li.btn6 { background: url("images/topright_btns_06.png") no-repeat center 0;}
+
+.md_links { position: relative; z-index: 333; width: 990px; margin:0 auto; display: block;}
+.md_links li a { display: block;}
+.md_links li a:hover{-webkit-filter: brightness(110%);}
+
+.fb_btn { width: 990px; height: 42px; margin: 0 auto;}
+.fb_btn img {float: right; margin-right: 15px;}
+.fb_btn img:hover { -webkit-filter: brightness(110%); }
+
+.link1 a {width: 100%; height: 520px; display: block;}
+
+/*Gorgeous BOXA op*/    
+#BOXA .bg3 { height: 639px; background: url("images/event_03.jpg") repeat-x center 0; }
+#BOXA .bg4 { height: 1141px; background: url("images/event_04.jpg") repeat-x center 0; }
+#BOXA .bg5 { height: 631px; background: url("images/event_05.jpg") repeat-x center 0; }
+#BOXA .bg6 { height: 604px; background: url("images/event_06.jpg") repeat-x center 0; }
+#BOXA .bg7 { height: 540px; background: url("images/event_07.jpg") repeat-x center 0; }
+#BOXA .pdLink1 li:nth-child(1) a { position: absolute; left: 40px; top: 300px;}
+#BOXA .pdLink1 li:nth-child(2) a { position: absolute; left: 493px; top: 155px;}
+#BOXA .pdLink1 li:nth-child(3) a { position: absolute; left: 740px; top: 155px;}
+#BOXA .pdLink1 li:nth-child(4) a { position: absolute; left: 493px; top: 343px;}
+
+#BOXA .pdLink2 li:nth-child(1) a { position: absolute; left: 4px; top: 73px;}
+#BOXA .pdLink2 li:nth-child(2) a { position: absolute; left: 4px; top: 462px;}
+#BOXA .pdLink2 li:nth-child(3) a { position: absolute; left: 4px; top: 675px;}
+#BOXA .pdLink2 li:nth-child(4) a { position: absolute; left: 218px; top: 73px;}
+#BOXA .pdLink2 li:nth-child(5) a { position: absolute; left: 218px; top: 248px;}
+#BOXA .pdLink2 li:nth-child(6) a { position: absolute; left: 218px; top: 602px;}
+#BOXA .pdLink2 li:nth-child(7) a { position: absolute; left: 218px; top: 814px;}
+#BOXA .pdLink2 li:nth-child(8) a { position: absolute; left: 493px; top: 285px;}
+
+#BOXA .pdLink3 li:nth-child(1) a { position: absolute; left: 37px; top: 200px;}
+#BOXA .pdLink3 li:nth-child(2) a { position: absolute; left: 443px; top: 73px;}
+#BOXA .pdLink3 li:nth-child(3) a { position: absolute; left: 695px; top: 73px;}
+#BOXA .pdLink3 li:nth-child(4) a { position: absolute; left: 443px; top: 326px;}
+#BOXA .pdLink3 li:nth-child(5) a { position: absolute; left: 695px; top: 326px;}
+
+#BOXA .pdLink4 li:nth-child(1) a { position: absolute; left: 62px; top: 126px;}
+#BOXA .pdLink4 li:nth-child(2) a { position: absolute; left: 359px; top: 126px;}
+#BOXA .pdLink4 li:nth-child(3) a { position: absolute; left: 660px; top: 185px;}
+#BOXA .pdLink4 li:nth-child(4) a { position: absolute; left: 359px; top: 310px;}
+
+#BOXA .pdLink5 li:nth-child(1) a { position: absolute; left: 75px; top: 188px;}
+#BOXA .pdLink5 li:nth-child(2) a { position: absolute; left: 415px; top: 90px;}
+#BOXA .pdLink5 li:nth-child(3) a { position: absolute; left: 646px; top: 90px;}
+#BOXA .pdLink5 li:nth-child(4) a { position: absolute; left: 415px; top: 245px;}
+
+/*Elegant BOXB pd link op*/
+#BOXB .bg3 { height: 861px; background: url("images/page1_03.jpg") repeat-x center 0; }
+#BOXB .bg4 { height: 1059px; background: url("images/page1_04.jpg") repeat-x center 0; }
+#BOXB .bg5 { height: 811px; background: url("images/page1_05.jpg") repeat-x center 0; }
+#BOXB .bg6 { height: 1064px; background: url("images/page1_06.jpg") repeat-x center 0; }
+#BOXB .bg7 { height: 859px; background: url("images/page1_07.jpg") repeat-x center 0; }
+#BOXB .pdLink1 li:nth-child(1) a { position: absolute; left: 0px; top: 185px;}
+#BOXB .pdLink1 li:nth-child(2) a { position: absolute; left: 349px; top: 197px;}
+#BOXB .pdLink1 li:nth-child(3) a { position: absolute; left: 632px; top: 197px;}
+#BOXB .pdLink1 li:nth-child(4) a { position: absolute; left: 349px; top: 481px;}
+
+#BOXB .pdLink2 li:nth-child(1) a { position: absolute; left: 465px; top: 240px;}
+#BOXB .pdLink2 li:nth-child(2) a { position: absolute; left: 0px; top: 318px;}
+#BOXB .pdLink2 li:nth-child(3) a { position: absolute; left: 380px; top: 318px;}
+#BOXB .pdLink2 li:nth-child(4) a { position: absolute; left: 380px; top: 546px;}
+
+#BOXB .pdLink3 li:nth-child(1) a { position: absolute; left: 37px; top: 170px;}
+#BOXB .pdLink3 li:nth-child(2) a { position: absolute; left: 516px; top: 170px;}
+#BOXB .pdLink3 li:nth-child(3) a { position: absolute; left: 516px; top: 495px;}
+#BOXB .pdLink3 li:nth-child(4) a { position: absolute; left: 792px; top: 495px;}
+
+#BOXB .pdLink4 li:nth-child(1) a { position: absolute; left: 527px; top: 257px;}
+#BOXB .pdLink4 li:nth-child(2) a { position: absolute; left: 20px; top: 177px;}
+#BOXB .pdLink4 li:nth-child(3) a { position: absolute; left: 20px; top: 636px;}
+#BOXB .pdLink4 li:nth-child(4) a { position: absolute; left: 247px; top: 636px;}
+
+#BOXB .pdLink5 li:nth-child(1) a { position: absolute; left: 75px; top: 367px;}
+#BOXB .pdLink5 li:nth-child(2) a { position: absolute; left: 575px; top: 241px;}
+#BOXB .pdLink5 li:nth-child(3) a { position: absolute; left: 575px; top: 557px;}
+#BOXB .pdLink5 li:nth-child(4) a { position: absolute; left: 740px; top: 557px;}
+
+/*Sweetie BOXC pd link op*/
+#BOXC .bg3 { height: 758px; background: url("images/page2_03.jpg") repeat-x center 0; }
+#BOXC .bg4 { height: 1055px; background: url("images/page2_04.jpg") repeat-x center 0; }
+#BOXC .bg5 { height: 811px; background: url("images/page2_05.jpg") repeat-x center 0; }
+#BOXC .bg6 { height: 861px; background: url("images/page2_06.jpg") repeat-x center 0; }
+#BOXC .pdLink1 li:nth-child(1) a { position: absolute; left: 0px; top: 220px;}
+#BOXC .pdLink1 li:nth-child(2) a { position: absolute; left: 387px; top: 171px;}
+#BOXC .pdLink1 li:nth-child(3) a { position: absolute; left: 669px; top: 171px;}
+#BOXC .pdLink1 li:nth-child(4) a { position: absolute; left: 387px; top: 382px;}
+
+#BOXC .pdLink2 li:nth-child(1) a { position: absolute; left: 571px; top: 270px;}
+#BOXC .pdLink2 li:nth-child(2) a { position: absolute; left: 33px; top: 217px;}
+#BOXC .pdLink2 li:nth-child(3) a { position: absolute; left: 270px; top: 217px;}
+#BOXC .pdLink2 li:nth-child(4) a { position: absolute; left: 33px; top: 638px;}
+
+#BOXC .pdLink3 li:nth-child(1) a { position: absolute; left: 0px; top: 213px;}
+#BOXC .pdLink3 li:nth-child(2) a { position: absolute; left: 507px; top: 243px;}
+#BOXC .pdLink3 li:nth-child(3) a { position: absolute; left: 804px; top: 243px;}
+#BOXC .pdLink3 li:nth-child(4) a { position: absolute; left: 804px; top: 403px;}
+
+#BOXC .pdLink4 li:nth-child(1) a { position: absolute; left: 0px; top: 177px;}
+#BOXC .pdLink4 li:nth-child(2) a { position: absolute; left: 264px; top: 177px;}
+#BOXC .pdLink4 li:nth-child(3) a { position: absolute; left: 495px; top: 262px;}
+#BOXC .pdLink4 li:nth-child(4) a { position: absolute; left: 264px; top: 439px;}
+
+/*Banquet BOXD pd link op*/
+#BOXD .bg3 { height: 758px; background: url("images/page3_03.jpg") repeat-x center 0; }
+#BOXD .bg4 { height: 711px; background: url("images/page3_04.jpg") repeat-x center 0; }
+#BOXD .bg5 { height: 864px; background: url("images/page3_05.jpg") repeat-x center 0; }
+#BOXD .bg6 { height: 814px; background: url("images/page3_06.jpg") repeat-x center 0; }
+#BOXD .pdLink1 li:nth-child(1) a { position: absolute; left: 100px; top: 210px;}
+#BOXD .pdLink1 li:nth-child(2) a { position: absolute; left: 329px; top: 354px;}
+#BOXD .pdLink1 li:nth-child(3) a { position: absolute; left: 533px; top: 354px;}
+#BOXD .pdLink1 li:nth-child(4) a { position: absolute; left: 749px; top: 354px;}
+
+#BOXD .pdLink2 li:nth-child(1) a { position: absolute; left: 565px; top: 255px;}
+#BOXD .pdLink2 li:nth-child(2) a { position: absolute; left: 38px; top: 153px;}
+#BOXD .pdLink2 li:nth-child(3) a { position: absolute; left: 38px; top: 462px;}
+#BOXD .pdLink2 li:nth-child(4) a { position: absolute; left: 271px; top: 462px;}
+
+#BOXD .pdLink3 li:nth-child(1) a { position: absolute; left: 0px; top: 224px;}
+#BOXD .pdLink3 li:nth-child(2) a { position: absolute; left: 544px; top: 118px;}
+#BOXD .pdLink3 li:nth-child(3) a { position: absolute; left: 544px; top: 527px;}
+#BOXD .pdLink3 li:nth-child(4) a { position: absolute; left: 746px; top: 527px;}
+
+#BOXD .pdLink4 li:nth-child(1) a { position: absolute; left: 27px; top: 173px;}
+#BOXD .pdLink4 li:nth-child(2) a { position: absolute; left: 526px; top: 281px;}
+#BOXD .pdLink4 li:nth-child(3) a { position: absolute; left: 27px; top: 511px;}
+#BOXD .pdLink4 li:nth-child(4) a { position: absolute; left: 284px; top: 511px;}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+	#warp { width: 100%; display: block; overflow: hidden;}
+	.top_btn { display: none; }
+}

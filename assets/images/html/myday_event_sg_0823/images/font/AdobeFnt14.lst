@@ -1,0 +1,136 @@
+%!Adobe-FontList 1.14
+%Locale:0x404
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSansMT-BoldItalic
+FamilyName:Gill Sans MT
+StyleName:Bold Italic
+FullName:Gill Sans MT Bold Italic
+MenuName:Gill Sans MT
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\GILBI_.TTF
+DataFormat:sfntData
+FileLength:71496
+FileModTime:921654450
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSansMT-Bold
+FamilyName:Gill Sans MT
+StyleName:Bold
+FullName:Gill Sans MT Bold
+MenuName:Gill Sans MT
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\GILB__.TTF
+DataFormat:sfntData
+FileLength:68304
+FileModTime:921654454
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSansMT-Condensed
+FamilyName:Gill Sans MT Condensed
+StyleName:Regular
+FullName:Gill Sans MT Condensed
+MenuName:Gill Sans MT Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\GILC__.TTF
+DataFormat:sfntData
+FileLength:60320
+FileModTime:923038354
+WeightClass:400
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSansMT-Italic
+FamilyName:Gill Sans MT
+StyleName:Italic
+FullName:Gill Sans MT Italic
+MenuName:Gill Sans MT
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\GILI__.TTF
+DataFormat:sfntData
+FileLength:69436
+FileModTime:921654460
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSansMT
+FamilyName:Gill Sans MT
+StyleName:Regular
+FullName:Gill Sans MT
+MenuName:Gill Sans MT
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\GIL___.TTF
+DataFormat:sfntData
+FileLength:67416
+FileModTime:921654460
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GillSansMT-ExtraCondensedBold
+FamilyName:Gill Sans MT Ext Condensed Bold
+StyleName:Regular
+FullName:Gill Sans MT Ext Condensed Bold
+MenuName:Gill Sans MT Ext Condensed Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\GLSNECB.TTF
+DataFormat:sfntData
+FileLength:84668
+FileModTime:923038374
+WeightClass:400
+WidthClass:2
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HighTowerText-Reg
+FamilyName:High Tower Text
+StyleName:Regular
+FullName:High Tower Text
+MenuName:High Tower Text
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170823_相機館_SG\html\images\Font\HTOWERT.TTF
+DataFormat:sfntData
+FileLength:92736
+FileModTime:900394936
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

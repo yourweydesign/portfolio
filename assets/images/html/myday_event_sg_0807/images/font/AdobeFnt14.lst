@@ -1,0 +1,44 @@
+%!Adobe-FontList 1.14
+%Locale:0x404
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CharlemagneStd-Regular
+FamilyName:Charlemagne Std
+StyleName:Regular
+FullName:Charlemagne Std
+MenuName:Charlemagne Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170807_品牌旗艦館_SG\html\images\Font\CharlemagneStd-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:36716
+FileModTime:1301698491
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:240
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HighTowerText-Reg
+FamilyName:High Tower Text
+StyleName:Regular
+FullName:High Tower Text
+MenuName:High Tower Text
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Erin_Wrok\01EDM\20170807_品牌旗艦館_SG\html\images\Font\HTOWERT.TTF
+DataFormat:sfntData
+FileLength:92736
+FileModTime:900394936
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

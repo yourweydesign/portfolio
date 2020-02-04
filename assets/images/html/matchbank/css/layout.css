@@ -1,0 +1,120 @@
+/*****************************************************************************
+Layout
+*****************************************************************************/
+
+html { height: 100%; }
+body { color: #5e5e5e; height: 100%; background: url("../images/body.jpg"); }
+a { color: #5e5e5e; }
+a:hover { color: #000; }
+a.bblink { color: #2791cd; text-decoration: underline; }
+a.bblink2 { color: #2791cd; text-decoration: none; }
+p { line-height: 2em; text-align: justify; }
+b { font-weight: bold; }
+img { display: block; }
+h3 { font-size: 18px; text-align: center; margin-top: 20px; margin-bottom: 50px;}
+/*首頁-------------------------*/
+
+
+/*btn START-------------------------*/
+
+button { width: 30%; margin: 30px auto 0 auto; padding: 15px; font-size: 1.2em; font-weight: bold; color: #ffffff; background: #cf2d31; border-radius: 3px; display: block; }
+button:hover{ background: #8b090c; }
+button a, button a:hover { color: #fff;}
+/*btn END-------------------------*/
+
+
+/*form START-------------------------*/
+form { width: 85%; display: block; overflow: hidden; margin: 50px auto 0 auto; }
+input { width: 78%; padding: 10px; font-size: 1.1em; color: #8f8f8f; border: 1px solid #cccccc; border-radius: 3px; margin-bottom: 20px; }
+textarea { width: 78%; border: 1px solid #c7c7c7; border-radius: 3px; padding: 10px; margin-top: 8px; min-height: 230px; color: #8f8f8f; }
+label { line-height: 3em; width: 18%; float: left; text-align: right; margin-right: 20px; }
+
+/* form END -------------------------*/
+.wrap { width: 960px; margin: 0 auto; }
+.content { background: #fff; }
+
+/**header START*******************************************/
+
+header { background: #fff; padding-bottom: 20px; display: block; overflow: hidden; border-bottom: 5px solid #bf4a4d; }
+nav { float: right; display: block; overflow: hidden; margin-top: -40px; margin-right: 10px; font-size: 15px; font-weight: bold; }
+nav li { float: left; padding: 10px; margin-left: 5px; }
+nav li a:hover {color: #bf4a4d;}
+.logo { margin-top: 25px; }
+
+/**header END*******************************************/
+
+
+/**Main Area START*******************************************/
+
+.content { padding: 40px 50px 70px 50px; }
+.hugeTitle { width: 380px; margin: 0 auto 20px auto; font-size: 30px; line-height: 1.5em; font-weight: bold; text-align: center; }
+.mdTitle { width: 100%; margin: 0 auto; font-size: 20px; line-height: 3em; font-weight: bold; text-align: center;}
+.line { width: 100px; margin: 0 auto 30px auto; border-bottom: 2px solid #bf4a4d; }
+.left { text-align: left; }
+.warning { color: #dd3a4c; margin-bottom: 40px; display: block;}
+h2 i, .sm_tit { display: block; width: 100%; font-size: 15px; text-align: center; color: #8c9195; }
+h1 { width: 100%; font-size: 30px; font-weight: bold; background: #fff; color: #b22629; text-align: center; padding: 40px; margin-bottom: 30px; line-height: 1.5em; }
+h2 { width: 100%; font-size: 25px; font-weight: bold; text-align: center; line-height: 1.5em; margin-bottom: 20px; color: #293035; }
+h2.left { font-size: 20px; }
+.photo { text-align: center; margin: 50px 0; }
+.photo img { margin: 0 auto; }
+
+.pdList { display: block; overflow: hidden; margin-bottom: 0px; }
+.pdList li { border-top: 1px dotted #8c9195; display: block; overflow: hidden; padding: 25px 0; }
+.pdList .pd_title { font-size: 15px; width: 50%; float: left; margin: 45px 0 0 20px; }
+.pdList .title { font-size: 1.3em; color: #000; font-weight: bold; }
+.pdList .txt { font-size: 1em; }
+
+.stList li { margin-bottom: 30px; }
+.stList div { position: relative; width: 850px; height: 130px; background: #fff; color: #b22629; display: inherit; border: 1px solid #b22629; }
+.stList div p { }
+.st_txt { position: absolute; margin-left: 5px; margin-top: 5px; padding: 15px; padding-left: 25px; }
+.st_txt_bg { position: absolute; top: 0; left: 0; }
+
+.abList { display: block; overflow: hidden; margin-bottom: 40px; font-size: 15px; }
+.abList li { border-top: 0px dotted #8c9195; border-bottom: 1px dotted #8c9195; display: block; overflow: hidden; padding: 10px 15px; }
+.abList li a { color: #d4474a; }
+.abList li a:hover { color: #a1080c; }
+.abList .title { width: 30%; font-weight: bold; float: left; color: #293035; }
+
+.service li { padding: 30px 5px; border-bottom: 1px dotted #8c9195; }
+.service li:first-child { border-top: 1px dotted #8c9195;}
+.service li:last-child { border-bottom: 0px; }
+.service li .title { color: #000; font-weight: bold; font-size: 20px;}
+.service li .icon { float: left; margin-right: 35px; margin-left: 5px;}
+.service li:nth-child(4) .icon { margin-top: 15px;}
+.service li:nth-child(5) .icon { margin-top: 15px;}
+
+.wineList { display: block; overflow: hidden; margin-bottom: 60px; margin-top: 20px; font-size: 15px; }
+.wineList li { border-top: 1px dotted #8c9195; border-bottom: 0px dotted #8c9195; display: block; overflow: hidden; padding: 10px 15px; }
+.wineList li:last-child { border-bottom: 1px dotted #8c9195;}
+.wineList li a { color: #555; }
+.wineList li a:hover { color: #d4474a; }
+.wineList .txt { width: 70%; font-weight: bold; float: left; color: #293035; margin-top: 49px; font-weight: normal;}
+.wineList .pd_photo { float: left;}
+.wineList .warning { margin-top: 10px; margin-left: 39px;}
+form li .warning { width: 100%; font-size: 13px; text-align: left; margin-left: 150px; line-height: 1.2em;}
+
+.wineIn { margin-bottom: }
+.wineIn .btInfo { margin-left: 60px; margin-right: 60px;}
+.wineIn h2{ }
+.wineIn h3 { margin-top: 30px; display: block; clear: both;}
+.wineIn div { display: block; overflow: hidden;}
+.wineIn li img{ margin: 40px 10px 40px 30px;}
+.wineIn .mdTitle { text-align: left; color: #b22629;}
+.wineIn .txt { width: 100%; margin-left: 45px; margin-bottom: 40px; margin-top: 0; color: #777; font-weight: normal;}
+.wineIn .line { margin-bottom: 0px;}
+
+li.buyer_info { padding-top: 30px;}
+
+/**Main Area END*******************************************/
+
+
+/**footer START*******************************************/
+
+footer { position: relative; margin-top: 40px; /* negative value of footer height */
+clear: both; background: #b22629; color: #fff; padding: 5px 0; }
+footer p { width: 90%; margin: 0 auto; text-align: center; font-size: 11px; height: 20px; }
+footer p.swich { font-size: 1.1em; padding-top: 55px; padding-bottom: 30px; }
+
+/**footer END*******************************************/

@@ -1,0 +1,95 @@
+#TopAD {
+	position:relative;
+	width:940px;
+	height:400px;
+	margin:0 auto;
+	padding:0px;
+}
+h2 {
+	padding:15px 10px 5px 10px;
+	margin:0;
+}
+#TopAD h2 a {
+	padding-left:10px;
+	color:#fff;
+	font-size:1px;
+	line-height:1.3em;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#TopAD .AdDate {
+	display:block;
+	clear:both;
+	width:450px;
+	color:#f2163f;
+	font-size:11px;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#TopAD .Adbody {
+	width:450px;
+	height:120px;
+	clear:both;
+	margin-top:15px;
+	margin-left:8px;
+	padding:0 15px;
+}
+#TopAD .Adbody a {
+	font-size:13px;
+	color:#c6c6c6;
+	text-decoration: none;
+	line-height:1.7em;
+}
+#TopAD .TopAdleft {
+	float:left;
+	width:500px;
+}
+#TopAD .TopAdright {
+	width:100%;
+	
+}
+#TopAD .link {
+	position:absolute;
+	top:420px;
+	left:420px;
+	width:200px;
+	height:20px;
+}
+#TopAD .link ul {
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	display: block;
+	padding-top:1px;
+}
+#TopAD .link ul li {
+	width: 12px;
+	height: 12px;
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 5px;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.001em;
+}
+#TopAD .link ul li.on {
+	background: #000;
+	color: #000;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+	border: 1px solid #999;
+*-webkit-border-radius: 10px;
+*-moz-border-radius: 10px;
+*border-radius: 10px;
+}
+#TopAD .link ul li.off {
+	background: #ccc;
+	color: #ccc;
+	border: 1px solid #999;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
